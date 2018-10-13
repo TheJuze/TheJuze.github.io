@@ -8,16 +8,34 @@
 <body>
     <header>
         <nav class="main-navigation">
-            <img src="svg/logo.svg" alt="Gllacy shop">
+            <img src="svg/logo.svg" alt="Gllacy shop" width="154px" height="64px">
             <ul class="main-menu">
-                <li class="catalog"><a href="#">Каталог</a></li>
+                <li class="catalog"><a href="gllacy-catalog.html">Каталог</a></li>
                 <li class="payment"><a href="#">Доставка и оплата</a></li>
                 <li class="about-company"><a href="#">О компании</a></li>
             </ul>
             <ul class="secondary-menu">
-                <li class="search"><a href="#"><img src="svg/loupe.svg" alt="Поиск"></a></li>
-                <li class="login"><a href="#"><img src="svg/entrance.svg" alt="">Вход</a></li>
-                <li class="backet"><a href="#"><img src="svg/basket-red.svg" alt="">2 товара</a></li>
+                <li class="search">
+                    <form>
+                        <button>
+                            <img src="svg/loupe.svg" alt="Поиск" width="17px" height="17px">
+                        </button>
+                    </form> 
+                </li>
+                <li class="login">
+                    <form>
+                        <button>
+                            <img src="svg/entrance.svg" alt="" width="21px" height="19px">Вход
+                        </button>
+                    </form>
+                </li>
+                <li class="backet">
+                    <form>
+                        <button>
+                            <img src="svg/basket.svg" alt="" width="21px" height="20px">Пусто
+                        </button>
+                    </form>
+                </li>
             </ul>
         </nav>
         <div>
@@ -163,18 +181,18 @@
     </main>
     <footer>
         <ul class="social-links">
-            <li class="twitter"><a href="#"><img src="svg/twitter.svg" alt="twitter"></a></li>
-            <li class="instagramm"><a href="#"><img src="svg/instagram.svg" alt="instagram"></a></li>
-            <li class="facebook"><a href="#"><img src="svg/fb.svg" alt="facebook"></a></li>
-            <li class="vkontakte"><a href="#"><img src="svg/vk.svg" alt="vkontakte"></a></li>
+            <li class="twitter"><a href="#"><img src="svg/twitter.svg" alt="twitter" width="32px" height="32px"></a></li>
+            <li class="instagramm"><a href="#"><img src="svg/instagram.svg" alt="instagram" width="32px" height="32px"></a></li>
+            <li class="facebook"><a href="#"><img src="svg/fb.svg" alt="facebook" width="32px" height="32px"></a></li>
+            <li class="vkontakte"><a href="#"><img src="svg/vk.svg" alt="vkontakte" width="32px" height="32px"></a></li>
         </ul>
         <ul class="footer-menu">
-            <li class="for-provider"><img src="svg/heart.svg"><a href="#">Для поставщиков</a></li>
+            <li class="for-provider"><img src="svg/heart.svg" width="15px" height="13px"><a href="#">Для поставщиков</a></li>
             <li class="our-documents"><a href="#">Наши документы</a></li>
             <li class="about-production"><a href="#">О производстве</a></li>
             <li class="eco-standarts"><a href="#">Экологические стандарты</a></li>
         </ul>
-        <img src="svg/logo-htmlacademy.svg" alt="HTML Academy logo">
+        <img src="svg/logo-htmlacademy.svg" alt="HTML Academy logo" width="108px" height="39px">
         <p>Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> © 2018</p>
     </footer>
     <section class="catalog-menu">
@@ -187,23 +205,44 @@
     </section>
     <section class="login-form">
         <h2 class="visibility-hidden">Вход</h2>
-        <input type="email" name="e-mail" value="Электронная почта"><br>
-        <input type="password" name="password"><br>
-        <input type="submit" name="login-button" value="Войти">
+        <form>
+            <input type="email" name="e-mail" placeholder="Электронная почта"><br>
+            <input type="password" name="password" placeholder="Пароль"><br>
+            <input type="submit" name="login-button" value="Войти">
+        </form>
         <p><a href="#">Забыли пароль?</a></p>
-         <p><a href="#">Новая регистрация</a></p>
+        <p><a href="#">Новая регистрация</a></p>
     </section>
     <section class="search-form">
         <h2 class="visibility-hidden">Поиск</h2>
-        <input type="text" value="Что ищем?">
+        <form>
+            <input type="text" placeholder="Что ищем?">
+        </form>
     </section>
     <section class="backet-form">
         <h2 class="visibility-hidden">Корзина</h2>
         <ul class="shopping-list">
-            <li>Товар 1</li>
-            <li>Товар 2</li>
+            <li>
+                <form>
+                    <button><img src="svg/cross-small.svg" alt="X"></button>
+                </form>
+                <img src="png and jpg/Cirled-icecream-1.jpg" width="33px" height="33px">
+                <span class="count">1,5кг x 200 руб.</span>
+                <span class="count-output">300 руб.</span>
+            </li>
+            <li>
+                <form>
+                    <button><img src="svg/cross-small.svg" alt="X"></button>
+                </form>
+                <img src="png and jpg/Cirled-icecream-2.jpg" width="33px" height="33px">
+                <span class="count">1,5кг x 300 руб.</span>
+                <span class="count-output">450 руб.</span></li>
         </ul>
-        <p><a href="#">Оформить заказ</a></p>
+        <form>
+            <button>
+                <p>Оформить заказ</p>
+            </button>
+        </form>
     </section>
 </body>
 </html>
