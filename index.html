@@ -8,7 +8,7 @@
 <body>
     <header>
         <nav class="main-navigation">
-            <img src="svg/logo.svg" alt="Gllacy shop" width="154px" height="64px">
+            <img src="svg/logo.svg" alt="Gllacy shop" width="154" height="64">
             <ul class="main-menu">
                 <li class="catalog"><a href="gllacy-catalog.html">Каталог</a></li>
                 <li class="payment"><a href="#">Доставка и оплата</a></li>
@@ -16,26 +16,19 @@
             </ul>
             <ul class="secondary-menu">
                 <li class="search">
-                    <form>
-                        <button>
-                            <img src="svg/loupe.svg" alt="Поиск" width="17px" height="17px">
-                        </button>
-                    </form>
-                    
+                    <button>
+                        <img src="svg/loupe.svg" alt="Поиск" width="17" height="17">
+                    </button>
                 </li>
                 <li class="login">
-                    <form>
-                        <button>
-                            <img src="svg/entrance.svg" alt="" width="21px" height="19px">Вход
-                        </button>
-                    </form>
+                    <button>
+                        <img src="svg/entrance.svg" alt="" width="21" height="19">Вход
+                    </button>
                 </li>
                 <li class="backet">
-                    <form>
-                        <button>
-                            <img src="svg/basket.svg" alt="" width="21px" height="20px">Пусто
-                        </button>
-                    </form>
+                    <button>
+                        <img src="svg/basket.svg" alt="" width="21" height="20">Пусто
+                    </button>
                 </li>
             </ul>
         </nav>
@@ -47,38 +40,50 @@
     <main>
         <h1 class="visibility-hidden">Icecream</h1>
         <section class="background">
-            <div class="background-1">
-                <img src="png and jpg/Icecream-1.png" alt="" width="1045px" height="881px">
-                <p class="actions">Крем-брюле и пломбир с малиновым джемом</p>
-            </div>
-            <div class="background-2">
-                <img src="png and jpg/Icecream-2.png" alt="" width="1045px" height="881px">
-                <p class="actions">Шоколадный пломбир и лимонный сорбет</p>
-            </div>
-            <div class="background-3">
-                <img src="png and jpg/Icecream-3.png" alt="" width="1045px" height="881px">
-                <p class="actions">Пломбир с помадкой и клубничный щербет</p>
-            </div>
-            <ul class="between-actions">
-                <li class="page-1"><a href="1"></a></li>
-                <li class="page-2"><a href="2"></a></li>
-                <li class="page-3"><a href="3"></a></li>
+            <h2 class="visibility-hidden">Фон</h2>
+            <ul>
+                <li>
+                    <div class="background-1">
+                        <img src="png_and_jpg/Icecream-1.png" alt="" width="1045" height="881">
+                        <p class="actions">Крем-брюле и пломбир с малиновым джемом</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="background-2">
+                        <img src="png_and_jpg/Icecream-2.png" alt="" width="1045" height="881">
+                        <p class="actions">Шоколадный пломбир и лимонный сорбет</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="background-3">
+                        <img src="png_and_jpg/Icecream-3.png" alt="" width="1045" height="881">
+                        <p class="actions">Пломбир с помадкой и клубничный щербет</p>
+                    </div>
+                </li>
             </ul>
-            <form>
-                <button class="give it">
-                    <p>Дайте оба!</p>
-                </button>
-            </form>
+            
+            
+            <ul class="between-actions">
+                <li class="page-1"><button> </button></li>
+                <li class="page-2"><button> </button></li>
+                <li class="page-3"><button> </button></li>
+            </ul>
+            <button class="give it">
+                <span>Дайте оба!</span>
+            </button>
         </section>
         <section class="for-free">
             <div class="raspberries">
                 <h2>Малинка даром!</h2>
                 <p>При покупке 2кг любого фруктового мороженого, 
                     добавим в ваш заказ банку малинового варенья бесплатно.</p>
-                <form>
-                    <button>
-                        <p class="want-it">Хочу варенье!</p>
-                    </button>
+                <form action="" method="POST">
+                    <fieldset>
+                        <legend class="visibility-hidden">Получить варенье</legend>
+                        <button>
+                            <span class="want-it">Хочу варенье!</span>
+                        </button>
+                    </fieldset>
                 </form>
             </div>
         </section>
@@ -87,10 +92,13 @@
                 <h2>Шоколадки даром!</h2>
                 <p>При покупке 2кг пломбира, добавим в ваш заказ 
                     упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-                <form>
-                    <button>
-                        <p class="want-it">Хочу шоколадки!</p>
-                    </button>
+                <form action="" method="POST">
+                    <fieldset>
+                        <legend class="visibility-hidden">Получить шоколад</legend>
+                        <button>
+                            <span class="want-it">Хочу шоколадки!</span>
+                        </button>
+                    </fieldset>
                 </form>
             </div>
         </section>
@@ -99,8 +107,8 @@
             <ul>
                 <li class="first-icecream">
                     <a href="#">
-                    <img src="svg/hit.svg" alt="Хит" width="61px" height="61px">
-                    <img src="png and jpg/Cirled-icecream-1.jpg" alt="" width="267px" height="267px">
+                    <img src="svg/hit.svg" alt="Хит" width="61" height="61">
+                    <img src="png_and_jpg/Cirled-icecream-1.jpg" alt="" width="267" height="267">
                     <p class="cost">310 ₽<span class="kg">/кг</span></p>
                     <p class="description">Сливочное с 
                         апельсиновым джемом и цитрусовой стружкой</p>
@@ -108,8 +116,8 @@
                 </li>
                 <li class="second-icecream">
                     <a href="#">
-                    <img src="svg/hit.svg" alt="Хит" width="61px" height="61px">
-                    <img src="png and jpg/Cirled-icecream-2.jpg" alt="" width="267px" height="267px">
+                    <img src="svg/hit.svg" alt="Хит" width="61" height="61">
+                    <img src="png_and_jpg/Cirled-icecream-2.jpg" alt="" width="267" height="267">
                     <p class="cost">380 ₽<span class="kg">/кг</span></p>
                     <p class="description">Сливочно-кофейное 
                         с кусочками шоколада</p>
@@ -117,8 +125,8 @@
                 </li>
                 <li class="third-icecream">
                     <a href="#">
-                    <img src="svg/hit.svg" alt="Хит" width="61px" height="61px">
-                    <img src="png and jpg/Cirled-icecream-3.jpg" alt="" width="267px" height="267px">
+                    <img src="svg/hit.svg" alt="Хит" width="61" height="61">
+                    <img src="png_and_jpg/Cirled-icecream-3.jpg" alt="" width="267" height="267">
                     <p class="cost">355 ₽<span class="kg">/кг</span></p>
                     <p class="description">Сливочно-клубничное 
                         с присыпкой из белого шоколада</p>
@@ -126,8 +134,8 @@
                 </li>
                 <li class="fourth-icecream">
                     <a href="#">
-                    <img src="svg/hit.svg" alt="Хит" width="61px" height="61px">
-                    <img src="png and jpg/Cirled-icecream-4.jpg" alt="" width="267px" height="267px">
+                    <img src="svg/hit.svg" alt="Хит" width="61" height="61">
+                    <img src="png_and_jpg/Cirled-icecream-4.jpg" alt="" width="267" height="267">
                     <p class="cost">415 ₽<span class="kg">/кг</span></p>
                     <p class="description">Сливочное крем-брюле 
                         с карамельной подливкой</p>
@@ -138,28 +146,33 @@
         <section class="about-us">
             <h2>Магазин Глейси&mdash;это онлайн- и офлайн-магазин по продаже 
                 мороженного собственного производства на развес</h2>
-            <div class="about-icecream">
-                <img src="svg/ice-cream.svg" alt="" width="49px" height="49px">
-                <p>Все наше мороженое изготавливается на собственном производстве, 
-                    с использованием современного оборудования и проверенных временем технологий.</p>
-            </div>
-            <div class="cow">
-                <img src="svg/cow.svg" alt="" width="49px" height="49px">
-                <p>Закупка ингридиентов производится только у проверенных фермерских 
-                    хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
-            </div>
-            <div class="eco">
-                <img src="svg/eco.svg" alt="" width="49px" height="49px">
-                <p>Для приготовления мороженого используются настоящие сливки и 
-                    молоко высочайшего качества. Все дополнительные ингридиенты и добавки 
-                    произведены из натурального, экологически чистого сырья.</p>
-            </div>
-            <div class="thermometer">
-                <img src="svg/thermometer.svg" alt="" width="49px" height="49px">
-                <p>Доставка нашего мороженого до заказчиков осуществляется 
-                    в специальном термопаке, который не дает мороженому растаять 
-                    в пути и позволяет сохранить превосходный вкус.</p>
-            </div>
+                <ul>
+                    <li>
+                        <img src="svg/ice-cream.svg" alt="" width="49" height="49">
+                        <p>Все наше мороженое изготавливается на собственном производстве, 
+                         с использованием современного оборудования и проверенных временем технологий.</p>
+                    </li>
+                    <li>
+                        <img src="svg/cow.svg" alt="" width="49" height="49">
+                        <p>Закупка ингридиентов производится только у проверенных фермерских 
+                            хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+                    </li>
+                    <li>
+                        <img src="svg/eco.svg" alt="" width="49" height="49">
+                        <p>Для приготовления мороженого используются настоящие сливки и 
+                            молоко высочайшего качества. Все дополнительные ингридиенты и добавки 
+                            произведены из натурального, экологически чистого сырья.</p>
+                    </li>
+                    <li>
+                        <img src="svg/thermometer.svg" alt="" width="49" height="49">
+                        <p>Доставка нашего мороженого до заказчиков осуществляется 
+                            в специальном термопаке, который не дает мороженому растаять 
+                            в пути и позволяет сохранить превосходный вкус.</p>
+                    </li>
+                </ul>
+            
+            
+            
         </section>
         <article class="news">
             <h2>Новое в нашем блоге</h2>
@@ -170,14 +183,18 @@
             <p>Подпишитесь на нашу сладкую рассылку и будете всегда в 
                 курсе всего самого вкусного, что у нас происходит. 
                 Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-                <form>
-                    <input type="text" name="e-mail">
-                    <input type="submit" name="submit">
+                <form action="" method="POST">
+                    <fieldset>
+                        <legend class="visibility-hidden">Подписка на рассылку</legend>
+                        <label for="mailing-email" class="visibility-hidden"></label>
+                        <input type="email" id="mailing-email" name="e-mail">
+                        <input type="submit" name="submit">
+                    </fieldset>
                 </form>
         </section>
         <section class="contacts">
             <h2 class="visibility-hidden">Как добраться или заказать</h2>
-            <img src="png and jpg/map.jpg" alt="Где мы находимся" width="1250px" height="640px" >
+            <img src="png_and_jpg/map.jpg" alt="Где мы находимся" width="1250" height="640" >
             <div>
                 <p class="adress">Адреса главного офиса и офлайн-магазина:<br>
                 <b>ул. Большая Конюшенная 19/8, Санкт-Петербург</b>
@@ -186,88 +203,121 @@
                     <b>8 812 450-25-25</b><br>
                     (с 10 до 20 ежедневно)
                 </p>
-                <form>
-                    <button>
-                        <p class="client-server">Форма обратной связи</p>
-                    </button>
-                </form>
+                <button>
+                    <span class="client-server">Форма обратной связи</span>
+                </button>
             </div>
         </section>
     </main>
     <footer>
         <ul class="social-links">
-                <li class="twitter"><a href="#"><img src="svg/twitter.svg" alt="twitter" width="32px" height="32px"></a></li>
-                <li class="instagramm"><a href="#"><img src="svg/instagram.svg" alt="instagram" width="32px" height="32px"></a></li>
-                <li class="facebook"><a href="#"><img src="svg/fb.svg" alt="facebook" width="32px" height="32px"></a></li>
-                <li class="vkontakte"><a href="#"><img src="svg/vk.svg" alt="vkontakte" width="32px" height="32px"></a></li>
+                <li class="twitter">
+                    <a href="#">
+                        <img src="svg/twitter.svg" alt="twitter" width="32" height="32">
+                    </a>
+                </li>
+                <li class="instagramm">
+                    <a href="#">
+                        <img src="svg/instagram.svg" alt="instagram" width="32" height="32">
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a href="#">
+                        <img src="svg/fb.svg" alt="facebook" width="32" height="32">
+                    </a>
+                </li>
+                <li class="vkontakte">
+                    <a href="#">
+                        <img src="svg/vk.svg" alt="vkontakte" width="32" height="32">
+                    </a>
+                </li>
         </ul>
         <ul class="footer-menu">
-            <li class="for-provider"><img src="svg/heart.svg" width="15px" height="13px"><a href="#">Для поставщиков</a></li>
+            <li class="for-provider">
+                <img src="svg/heart.svg" alt="heart" width="15" height="13"><a href="#">Для поставщиков</a>
+            </li>
             <li class="our-documents"><a href="#">Наши документы</a></li>
             <li class="about-production"><a href="#">О производстве</a></li>
             <li class="eco-standarts"><a href="#">Экологические стандарты</a></li>
         </ul>
-        <img src="svg/logo-htmlacademy.svg" alt="HTML Academy logo" width="108px" height="39px">
-        <p>Сделано в <a href="https://htmlacademy.ru/">HTML Academy</a> © 2018</p>
+        <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="svg/logo-htmlacademy.svg" alt="HTML Academy logo" width="108" height="39"></a>
+        <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2018</p>
     </footer>
     <section class="catalog-menu">
         <h2 class="visibility-hidden">Catalog menu</h2>
-        <p><a href="#">Новинки</a></p>
-        <p><a href="#">Сливочное</a></p>
-        <p><a href="#">Щербеты</a></p>
-        <p><a href="#">Фруктовый лед</a></p>
-        <p><a href="#">Мелорин</a></p>
+        <ul>
+            <li><p><a href="#">Новинки</a></p></li>
+            <li><p><a href="gllacy-catalog.html">Сливочное</a></p></li>
+            <li><p><a href="#">Щербеты</a></p></li>
+            <li><p><a href="#">Фруктовый лед</a></p></li>
+            <li><p><a href="#">Мелорин</a></p></li>
+        </ul>
     </section>
     <section class="login-form">
         <h2 class="visibility-hidden">Вход</h2>
-        <form>
-            <input type="email" name="e-mail" placeholder="Электронная почта"><br>
-            <input type="password" name="password" placeholder="Пароль"><br>
-            <input type="submit" name="login-button" value="Войти">
+        <form action="" method="POST">
+            <fieldset>
+                <legend class="visibility-hidden">Вход</legend>
+                <label for="login-form-email" class="visibility-hidden">e-mail</label>
+                <input type="email" id="login-form-email" name="e-mail" placeholder="Электронная почта">
+                <label for="login-form-password" class="visibility-hidden">Пароль</label>
+                <input type="password" id="login-form-password" name="password" placeholder="Пароль">
+                <input type="submit" name="login-button" value="Войти">
+            </fieldset>
         </form>
         <p><a href="#">Забыли пароль?</a></p>
         <p><a href="#">Новая регистрация</a></p>
     </section>
     <section class="search-form">
         <h2 class="visibility-hidden">Поиск</h2>
-        <form>
-            <input type="text" placeholder="Что ищем?">
+        <form action="" method="GET">
+            <fieldset>
+                <legend class="visibility-hidden">Поиск</legend>
+                <label class="visibility-hidden" for="search">Поиск</label>
+                <input type="text" id="search" placeholder="Что ищем?">
+            </fieldset>
         </form>
     </section>
     <section class="feedback">
         <h2>Мы обязательно вам ответим!</h2>
-        <form>
-            <input type="text" placeholder="Как вас зовут?"><br>
-            <input type="email" placeholder="Ваша почта для ответа?"><br>
-            <textarea placeholder="Напишите что-нибудь..."></textarea><br>
-            <input type="submit" value="Отправить">
-            <button class="close-button">
-                <img src=".\svg\cross-big.svg" alt="X">
-            </button>
+        <form action="" method="POST">
+            <fieldset>
+                <legend class="visibility-hidden">Feedback</legend>
+                <label for="feedback-name" class="visibility-hidden">Ваше имя</label>
+                <input type="text" id="feedback-name" placeholder="Как вас зовут?">
+                <label for="feedback-email" class="visibility-hidden">Ваша почта</label>
+                <input type="email" id="feedback-email" placeholder="Ваша почта для ответа?">
+                <textarea placeholder="Напишите что-нибудь..."></textarea>
+                <input type="submit" value="Отправить"> 
+            </fieldset>
         </form>
+        <button class="feedback-close-button">
+            <img src="svg/cross-big.svg" alt="X">
+        </button>
     </section>
     <section class="backet-form">
         <h2 class="visibility-hidden">Корзина</h2>
         <ul class="shopping-list">
             <li>
-                <form>
-                    <button><img src="svg/cross-small.svg" alt="X"></button>
-                </form>
-                <img src="png and jpg/Cirled-icecream-1.jpg" width="33px" height="33px">
+                <button class="item-close-button">
+                    <img src="svg/cross-small.svg" alt="X" width="11" height="11">
+                </button>
+                <img src="png_and_jpg/Cirled-icecream-1.jpg" alt="" width="33" height="33">
                 <span class="count">1,5кг x 200 руб.</span>
                 <span class="count-output">300 руб.</span>
             </li>
             <li>
-                <form>
-                    <button><img src="svg/cross-small.svg" alt="X"></button>
-                </form>
-                <img src="png and jpg/Cirled-icecream-2.jpg" width="33px" height="33px">
+                <button class="item-close-button">
+                    <img src="svg/cross-small.svg" alt="X" width="11" height="11">
+                </button>
+                <img src="png_and_jpg/Cirled-icecream-2.jpg" alt="" width="33" height="33">
                 <span class="count">1,5кг x 300 руб.</span>
-                <span class="count-output">450 руб.</span></li>
+                <span class="count-output">450 руб.</span>
+            </li>
         </ul>
-        <form>
+        <form action="" method="POST">
             <button>
-                <p>Оформить заказ</p>
+                <span>Оформить заказ</span>
             </button>
         </form>
     </section>
