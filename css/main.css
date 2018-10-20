@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: bold;
+
+  background-color: #849d8f;
+}
+.main-menu {
+  font-size: 16px;
+  line-height: 18px;
+}
+.secondary-menu,
+.work-time {
+  font-size: 14px;
+  line-height: 16px;
+}
+.secondary-menu {
+  font-weight: normal;
+}
+.phone {
+  font-size: 22px;
+  line-height: 24px;
+}
+.actions {
+  font-size: 60px;
+  line-height: 60.35px;
+  text-align: center;
+}
+.give-both {
+  font-size: 32px;
+  line-height: 44px;
+}
+.for-free section h2 {
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.for-free div p {
+  font-size: 18px;
+  line-height: 22px;
+}
+.want-it {
+  font-size: 18px;
+  line-height: 24px;
+}
+.raspberries {
+  background-color: crimson;
+  background-image: url(../png_and_jpg/raspberies.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.chocolate {
+  background-color: chocolate;
+  background-image: url(../png_and_jpg/chocolate.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.showcase ul li .cost {
+  line-height: 45px;
+}
+.description {
+  font-size: 16px;
+  line-height: 22px;
+}
+.showcase ul li:hover {
+  background-color: #9db1a5;
+}
+.about-us {
+  color: #323232;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #eaddc1;
+  background-image: url(../png_and_jpg/vafle.jpg);
+  background-position: top center;
+  background-repeat: repeat;
+}
+.about-us h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+/*Как достать картинку?*/
+.news {
+  background-color: white;
+  background-image: url(../png_and_jpg/news-background.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: #323232;
+  font-size: 16px;
+  line-height: 22px;
+}
+.news p a {
+  color: #323232;
+  font-size: 24px;
+  line-height: 30px;
+}
+.mailing {
+  color: #5a5a5a;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #f8f7f4;
+  background-image: url(../png_and_jpg/mail.jpg);
+  background-repeat: none;
+  background-position: top center;
+}
+.contacts {
+  color: #323232;
+  background-color: #fdfefe;
+  font-size: 18px;
+  line-height: 24px;
+}
+.contacts div p span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}
+.footer-menu {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+}
+footer p {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+}
+.catalog-menu {
+  background-color: #f8f7f4;
+}
+.catalog-list{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  vertical-align: middle;
+  color: #323232;
+}
+.catalog-list:hover,
+.catalog-list:focus{
+  background-color:#fbded7;
+}
+.catalog-list:active{
+  background-color:#f6b5a5;
+}
+.catalog-list:disabled{
+  color:white;
+  background-color: #d07058;
+}
+.login-form{
+  background-color: #f8f7f4;
+}
+.login-form p a{
+  font-size: 13px;
+  line-height: 24px;
+  color: #323232;
+}
+.login-form p a:hover,
+.login-form p a:focus{
+  color: #323232;
+}
+.search-form{
+  background-color: #f8f7f4;
+}
+.feedback{
+  background-color: #f8f7f4;
+}
+.feedback h2{
+  font-size: 24px;
+  line-height: 28px;
+  color:#323232;
+}
+.close-button{
+  border:none;
+  background-color: #f8f7f4;
+}
+.backet-form{
+  background-color: #f8f7f4;
+  font-weight: normal;
+  color: #323232;
+  font-size: 13px;
+  line-height: 16px;
+}
+.cost{
+  color:#999999;
+}
+.backet-sum{
+  color: #323232;
+  font-size: 15px;
+  line-height: 18px;
+}
+.button {
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  background: linear-gradient(rgb(231, 74, 53), rgb(242, 104, 67));
+  border: none;
+}
+.button:hover,
+.button:focus {
+  background: linear-gradient(rgba(231, 74, 53, 0.8), rgb(242, 104, 67, 0.8));
+  background-color: white;
+}
+.button:active {
+  background: linear-gradient(rgba(231, 74, 53, 0.93), rgb(242, 104, 67, 0.93));
+  background-color: white;
+  color: #fceeec;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  font: inherit;
+  color: #323232;
+  background-color: white;
+  border: 2px solid #d3d3d2;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #8fbdec;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+a:not(.catalog-list):hover,
+a:not(.catalog-list):focus,
+a:not(.catalog-list):active {
+  color: #ffbc9e;
+}
+.main-menu li a:hover,
+.main-menu li a:focus {
+  background-color: #f7f6f3;
+  color: #333333;
+}
