@@ -10,14 +10,120 @@ body {
 
   background-color: #849d8f;
 }
+.catalog-background {
+  background: #9db1a5, linear-gradient(to bottom, #9cb0a5, #849d8f);
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.index-header {
+  margin-bottom: 535px;
+}
+.container {
+  /*width: 1146px;*/
+  margin: 0 auto;
+  padding: 0 37px;
+}
+.index-header .container {
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.our-contacts {
+  align-self: flex-end;
+}
+.main-navigation img {
+  width: 154;
+  height: 64;
+}
+.background {
+  margin-left: 76px;
+}
+.for-free {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 35px;
+  line-height: 41px;
+}
+fieldset {
+  border: none;
+}
+.filters legend {
+  font-size: 14px;
+  line-height: 16px;
+}
+.sort-by-type {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #9db1a5;
+  border: none;
+}
+.sort-by-type:hover,
+.sort-by-type:focus {
+  color: #323232;
+}
+.sort-price input {
+  background-color: #9db1a5;
+}
+.persentage {
+  font-size: 16px;
+  line-height: 18px;
+  background-color: #9db1a5;
+}
+.filler ul {
+  font-size: 16px;
+  line-height: 18px;
+  background-color: #9db1a5;
+}
+.catalog-button {
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  background: #a6b7ae;
+  border: none;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+.catalog-button:hover,
+.catalog-button:focus {
+  color: #323232;
+  background-color: #fbfcfb;
+  border-color: #fbfcfb;
+}
+.catalog-button:active {
+  color: #323232;
+  background-color: #eaeaea;
+  border-color: #eaeaea;
+  box-shadow: 0px 2px 1px 0px rgba(105, 105, 105, 1) inset;
+}
 .main-menu {
   font-size: 16px;
   line-height: 18px;
+  margin: 0px;
+  padding: 0px;
 }
 .secondary-menu,
 .work-time {
   font-size: 14px;
   line-height: 16px;
+  margin: 0px;
+  padding: 0px;
 }
 .secondary-menu {
   font-weight: normal;
@@ -25,6 +131,8 @@ body {
 .phone {
   font-size: 22px;
   line-height: 24px;
+  margin: 0px;
+  padding: 0px;
 }
 .actions {
   font-size: 60px;
@@ -51,24 +159,57 @@ body {
 .raspberries {
   background-color: crimson;
   background-image: url(../png_and_jpg/raspberies.jpg);
+  width: 560px;
+  height: 229px;
   background-repeat: no-repeat;
   background-position: top center;
 }
 .chocolate {
   background-color: chocolate;
   background-image: url(../png_and_jpg/chocolate.jpg);
+  width: 560px;
+  height: 229px;
   background-repeat: no-repeat;
   background-position: top center;
 }
-.showcase ul li .cost {
+.icecream-count {
+  display: flex;
+  justify-content: space-between;
+}
+.showcase-items li .cost {
   line-height: 45px;
 }
 .description {
   font-size: 16px;
   line-height: 22px;
+  text-align: center;
+  width: 257px;
+  height: 70px;
 }
-.showcase ul li:hover {
+.showcase-items li:hover,
+.showcase-items li:focus {
   background-color: #9db1a5;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+}
+.showcase-items li a:hover,
+.showcase-items li a:focus {
+  color: #ffffff;
+}
+.showcase-pages .disabled {
+  color: #9db1a5;
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+/*остановился тут*/
+.showcase-pages li {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  border: none;
 }
 .about-us {
   color: #323232;
@@ -78,10 +219,21 @@ body {
   background-image: url(../png_and_jpg/vafle.jpg);
   background-position: top center;
   background-repeat: repeat;
+  max-width: 1146px;
+  max-height: 306px;
 }
 .about-us h2 {
   font-size: 24px;
   line-height: 30px;
+}
+.about-us ul li p {
+  max-width: 560px;
+}
+.about-info {
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 /*Как достать картинку?*/
 .news {
@@ -131,7 +283,7 @@ footer p {
 .catalog-menu {
   background-color: #f8f7f4;
 }
-.catalog-list{
+.catalog-list {
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
@@ -140,54 +292,54 @@ footer p {
   color: #323232;
 }
 .catalog-list:hover,
-.catalog-list:focus{
-  background-color:#fbded7;
+.catalog-list:focus {
+  background-color: #fbded7;
 }
-.catalog-list:active{
-  background-color:#f6b5a5;
+.catalog-list:active {
+  background-color: #f6b5a5;
 }
-.catalog-list:disabled{
-  color:white;
+.catalog-list:disabled {
+  color: white;
   background-color: #d07058;
 }
-.login-form{
+.login-form {
   background-color: #f8f7f4;
 }
-.login-form p a{
+.login-form p a {
   font-size: 13px;
   line-height: 24px;
   color: #323232;
 }
 .login-form p a:hover,
-.login-form p a:focus{
+.login-form p a:focus {
   color: #323232;
 }
-.search-form{
+.search-form {
   background-color: #f8f7f4;
 }
-.feedback{
+.feedback {
   background-color: #f8f7f4;
 }
-.feedback h2{
+.feedback h2 {
   font-size: 24px;
   line-height: 28px;
-  color:#323232;
+  color: #323232;
 }
-.close-button{
-  border:none;
+.close-button {
+  border: none;
   background-color: #f8f7f4;
 }
-.backet-form{
+.backet-form {
   background-color: #f8f7f4;
   font-weight: normal;
   color: #323232;
   font-size: 13px;
   line-height: 16px;
 }
-.cost{
-  color:#999999;
+.backet-cost {
+  color: #999999;
 }
-.backet-sum{
+.backet-sum {
   color: #323232;
   font-size: 15px;
   line-height: 18px;
